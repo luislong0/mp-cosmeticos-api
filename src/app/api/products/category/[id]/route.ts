@@ -21,6 +21,9 @@ export async function GET(_: Request, { params }: { params: { id: string } }) {
        status: 404,
        headers: {
          "Content-Type": "application/json",
+         "Access-Control-Allow-Origin": "*", // Permite todos os domínios
+         "Access-Control-Allow-Methods": "GET, OPTIONS", // Especifica métodos permitidos
+         "Access-Control-Allow-Headers": "Content-Type, Authorization", // Especifica cabeçalhos permitidos
        },
      });
    
@@ -29,6 +32,9 @@ export async function GET(_: Request, { params }: { params: { id: string } }) {
     return new Response(JSON.stringify(products), {
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*", // Permite todos os domínios
+        "Access-Control-Allow-Methods": "GET, OPTIONS", // Especifica métodos permitidos
+        "Access-Control-Allow-Headers": "Content-Type, Authorization", // Especifica cabeçalhos permitidos
       },
     });
 }

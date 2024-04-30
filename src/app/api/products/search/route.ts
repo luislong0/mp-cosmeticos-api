@@ -16,6 +16,9 @@ export async function GET(request: NextRequest) {
     return new Response(JSON.stringify(products), {
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*", // Permite todos os domínios
+        "Access-Control-Allow-Methods": "GET, OPTIONS", // Especifica métodos permitidos
+        "Access-Control-Allow-Headers": "Content-Type, Authorization", // Especifica cabeçalhos permitidos
       },
     });
 }

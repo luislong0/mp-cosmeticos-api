@@ -16,6 +16,9 @@ export async function GET(
       status: 404,
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*", // Permite todos os domínios
+        "Access-Control-Allow-Methods": "GET, OPTIONS", // Especifica métodos permitidos
+        "Access-Control-Allow-Headers": "Content-Type, Authorization", // Especifica cabeçalhos permitidos
       },
     });
   }
@@ -24,6 +27,9 @@ export async function GET(
   return new Response(JSON.stringify(product), {
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*", // Permite todos os domínios
+      "Access-Control-Allow-Methods": "GET, OPTIONS", // Especifica métodos permitidos
+      "Access-Control-Allow-Headers": "Content-Type, Authorization", // Especifica cabeçalhos permitidos
     },
   });
 }
