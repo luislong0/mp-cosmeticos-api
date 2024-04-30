@@ -7,9 +7,9 @@
       "slug": "kit-luisot-banana-mel",
       "price": 99,
       "image": "/bg-kit-banana-mel.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "O Kit de Cuidados Capilares Bananas e Mel é a solução completa para o seu cabelo. Composto por um Shampoo de limpeza suave, que limpa os fios sem causar danos e deixa um aroma de banana com mel inconfundível; um Condicionador que revitaliza e protege os fios, adicionando uma fragrância inconfundível de banana com mel, e uma Máscara de Hidratação que proporciona hidratação profunda, deixa o cabelo protegido e exala o mesmo perfume inesquecível. Juntos, esses produtos oferecem limpeza, revitalização e proteção, deixando seu cabelo mais saudável e perfumado.",
       "categories": ["kit", "uso-diario"],
-      "sizes": ["1L", "300ml"],
+      "sizes": ["300ml", "1L"],
       "featured": true
     },
     {
@@ -18,9 +18,9 @@
       "slug": "kit-restore-force-luisot",
       "price": 129,
       "image": "/bg-kit-restore.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "O Kit Completo Restore Force é a solução definitiva para os cuidados capilares. Composto por Shampoo Restore Force que higieniza e disciplina, Condicionador que reestrutura fios danificados, Leave-in multifuncional para finalização e proteção, e Máscara de Hidratação antioxidante para rejuvenescer e nutrir os fios. Este kit proporciona um tratamento capilar completo, desde a limpeza até a hidratação intensa, para cabelos brilhantes e saudáveis.",
       "categories": ["kit", "uso-diario"],
-      "sizes": ["1L", "300ml"],
+      "sizes": ["300ml", "1L"],
       "featured": true
     },
     {
@@ -29,7 +29,7 @@
       "slug": "reconstrutor-luisot-tnt",
       "price": 69,
       "image": "/bg-luisot-tnt.jpg",
-      "description": "Camiseta fabricada com 100% de algodão.",
+      "description": "Descubra a revolucionária máscara de hidratação TNT da Luisot, enriquecida com o poderoso lipídio 18-MEA, projetada especificamente para uma restauração instantânea e profunda dos cabelos. Ideal para fios sensibilizados e danificados, esta fórmula exclusiva penetra nas camadas mais profundas do cabelo, promovendo uma reconstrução completa e uma regeneração vigorosa. Experimente cabelos visivelmente mais saudáveis e resilientes desde o primeiro uso.",
       "categories": ["reconstrucao", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": true
@@ -40,7 +40,7 @@
       "slug": "shampoo-luisot-banana-mel",
       "price": 99,
       "image": "/bg-shampoo-banana-mel.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "Experimente a doçura e eficácia do Shampoo de Banana e Mel da Luisot, uma fórmula suave que limpa seus cabelos sem causar danos. Enriquecido com extratos naturais de banana e mel, este shampoo não só purifica o couro cabeludo e os fios, mas também nutre e hidrata profundamente. Ideal para todos os tipos de cabelo, ele deixa seus fios macios, brilhantes e cheios de vida, revitalizando-os com cada lavagem. Desfrute de uma experiência de limpeza refrescante e naturalmente eficaz.",
       "categories": ["shampoo", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -51,7 +51,7 @@
       "slug": "shampoo-luisot-restore",
       "price": 99,
       "image": "/bg-shampoo-restore.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "O Shampoo Restore Force da LUISOT foi especialmente desenvolvido para cuidar de cabelos que passaram por tratamentos químicos. Sua fórmula avançada não apenas limpa profundamente, mas também disciplina os fios, proporcionando uma camada protetora que realça o brilho natural e fortalece a estrutura capilar. Este shampoo trabalha para restaurar a vitalidade e a saúde do cabelo, deixando-o visivelmente mais forte, brilhante e fácil de gerenciar. Ideal para revitalizar e proteger, é o aliado perfeito para manter seus cabelos saudáveis e radiantes.",
       "categories": ["shampoo", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -62,7 +62,7 @@
       "slug": "condicionador-luisot-banana-mel",
       "price": 99,
       "image": "/bg-condicionador-banana-mel.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "Desperte a vitalidade dos seus cabelos com o Condicionador de Banana e Mel da Luisot. Enriquecido com extratos nutritivos de banana e mel, este condicionador é complementado pela riqueza da geleia real e o poder rejuvenescedor do colágeno. Juntos, esses ingredientes revitalizam os fios, proporcionando uma hidratação profunda e restaurando a elasticidade natural do cabelo. Perfeito para todos os tipos de cabelo, o Condicionador de Banana e Mel deixa seus fios desembaraçados, suaves ao toque e cheios de brilho. Experimente uma transformação notável em seus cabelos, tornando-os mais saudáveis e radiantes a cada uso.",
       "categories": ["condicionador", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -73,7 +73,7 @@
       "slug": "condicionador-luisot-restore",
       "price": 99,
       "image": "/bg-condicionador-restore.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "O Condicionador Restore Force da Luisot é a escolha perfeita para todos os tipos de cabelo, especialmente formulado para equilibrar o pH e enriquecido com proteínas e aminoácidos essenciais. Indicado para uso após a lavagem, este condicionador atua instantaneamente sobre as cutículas, reestruturando os fios danificados e revitalizando a sua textura. Ele não só recupera o brilho natural do cabelo como também melhora significativamente a sua performance, deixando-os sedosos, fortes e cheios de vida. Experimente uma transformação visível e duradoura com cada aplicação.",
       "categories": ["condicionador", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -84,7 +84,7 @@
       "slug": "leavein-luisot-restore",
       "price": 99,
       "image": "/bg-leavein-restore.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "O Leave-in Restore Force da Luisot é um finalizador multifuncional enriquecido com Bio Restore, colágeno e Keratin Shield. Este produto oferece brilho máximo, restauração capilar, proteção térmica, redução de frizz e fortalecimento dos fios. É o aliado perfeito para todos os tipos de cabelo, proporcionando uma hidratação intensa e um acabamento impecável.",
       "categories": ["reconstrucao", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -95,7 +95,7 @@
       "slug": "mascara-luisot-banana-mel",
       "price": 99,
       "image": "/bg-mascara-banana-mel.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "A Máscara de Banana e Mel da Luisot. Enriquecida com potássio, vitaminas A, B, e C, e óleos naturais, esta máscara hidrata profundamente, fortalece os fios e minimiza a queda, restaurando a elasticidade e saúde de cabelos danificados, secos e sem vida.",
       "categories": ["hidratacao", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
@@ -106,7 +106,7 @@
       "slug": "mascara-luisot-restore",
       "price": 99,
       "image": "/bg-mascara-restore.jpg",
-      "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+      "description": "A Máscara Restore Force da Luisot, enriquecida com extrato de amaranto, é um tratamento antioxidante que promove a saúde e o rejuvenescimento dos cabelos. Este produto atua profundamente na fibra capilar, revitalizando os fios desde o interior. O resultado é um cabelo com brilho intenso, hidratado e livre de frizz, refletindo um aspecto saudável e bem cuidado.",
       "categories": ["hidratacao", "uso-diario"],
       "sizes": ["1L", "300ml"],
       "featured": false
