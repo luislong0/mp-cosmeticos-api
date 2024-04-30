@@ -1,19 +1,29 @@
-import { z } from 'zod'
-import data from '../data.json'
+import { z } from "zod";
+import data from "../data.json";
 
 export async function GET(
   _: Request,
-  { params }: { params: { slug: string } },
+  { params }: { params: { slug: string } }
 ) {
-  await new Promise((resolve) => setTimeout(resolve, 1000))
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
-  const slug = z.string().parse(params.slug)
-
-  const product = data.products.find((product) => product.slug === slug)
+  const slug = z.string().parse(params.slug);
+  const product = data.products.find((product) => product.slug === slug);
 
   if (!product) {
-    Response.json({ message: 'Product not found.' }, { status: 400 })
+    // Cria uma resposta com status 404 e corpo JSON
+    return new Response(JSON.stringify({ message: "Product not found." }), {
+      status: 404,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
   }
 
-  return Response.json(product)
+  // Retorna o produto encontrado com status 200 e corpo JSON
+  return new Response(JSON.stringify(product), {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 }
